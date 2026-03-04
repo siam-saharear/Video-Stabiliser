@@ -1,5 +1,7 @@
 import os
 import cv2
+import numpy as np
+import imutils
 
 
 # make sure to enter sub_directory name if there is any
@@ -31,4 +33,16 @@ def read_files(*args, folder_name="media_files", file_type=None):
     print("."*100)
 
     return all_files
+#   returned a list of file_paths 
+
+
+
+
+ 
+def load_video(video_path):
+    capture = cv2.VideoCapture(video_path)
+    return capture
+ 
+
+
 
