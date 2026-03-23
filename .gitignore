@@ -1,5 +1,6 @@
 tester.py
 raugh.py
+raugh_raugh.py
 
 **media_files/*
 !media_files/.gitkeep
